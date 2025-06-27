@@ -1,6 +1,5 @@
 
 config gowebdav 'config'
-	option mount_dir '/mnt'
 	option read_only '0'
 	option enable_https '0'
 	option enabled '1'
@@ -9,4 +8,5 @@ config gowebdav 'config'
 	option enable_auth '1'
 	option username '123'
 	option password '123'
+	option mount_dir '/mnt/'
 
