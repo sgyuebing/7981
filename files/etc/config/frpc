@@ -1,0 +1,23 @@
+
+config init
+	option stdout '1'
+	option stderr '1'
+	option respawn '1'
+	option user 'root'
+	option group 'root'
+
+config conf 'common'
+	option token '12345'
+	option tls_enable 'false'
+	option login_fail_exit 'false'
+	option server_port '7600'
+	option server_addr '192.168.2.10'
+
+config conf 'huawi'
+	option type 'tcp'
+	option use_encryption 'false'
+	option use_compression 'false'
+	option local_ip '192.168.2.1'
+	option local_port '80'
+	option remote_port '8880'
+

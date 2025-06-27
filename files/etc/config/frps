@@ -1,0 +1,17 @@
+
+config init
+	option stdout '1'
+	option stderr '1'
+	option respawn '1'
+	option user 'root'
+	option group 'root'
+
+config conf 'common'
+	option dashboard_user '123'
+	option dashboard_pwd '123'
+	option token '12345'
+	option heartbeat_timeout '90'
+	option max_ports_per_client '50'
+	option bind_port '7600'
+	option dashboard_port '7500'
+
