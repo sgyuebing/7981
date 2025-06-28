@@ -1,0 +1,6 @@
+
+config qbittorrent 'config'
+	option http_port '8080'
+	option enabled '1'
+	option download_dir '/mnt/mmcblk0p7/aria2'
+
