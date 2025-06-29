@@ -53,7 +53,6 @@ t.anonymous=true
 e=t:option(ListValue,"Port",translate("Port"),translate("The port of Modem"))
 e:value("NullModem","NullModem")
 if o.access("/dev/ttyS0")then e:value("/dev/ttyS0")end
-if o.access("/dev/ttyS1")then e:value("/dev/ttyS1")end
 if o.access("/dev/ttyUSB0")then e:value("/dev/ttyUSB0")end
 if o.access("/dev/ttyUSB1")then e:value("/dev/ttyUSB1")end
 if o.access("/dev/ttyUSB2")then e:value("/dev/ttyUSB2")end
