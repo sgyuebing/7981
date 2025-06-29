@@ -19,7 +19,7 @@ on:
         required: false
 
 env:
-  REPO_URL: https://github.com/qzyuebing/mt798x
+  REPO_URL: https://github.com/qzyuebing/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
