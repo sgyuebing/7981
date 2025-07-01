@@ -13,9 +13,10 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
-sed -i '$a src-git mmdvm https://github.com/qzyuebing/mmdvm-openwrt' feeds.conf.default
-sed -i '$a src-git pptp https://github.com/qzyuebing/luci-app-pptp-server' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git Aibx https://github.com/Aibx/openwrt-packages' feeds.conf.default
+sed -i '$a src-git immortalwrt https://github.com/immortalwrt/packages' feeds.conf.default
+sed -i '$a src-git mmdvm https://github.com/sgyuebing/mmdvm-openwrt' feeds.conf.default
 #sed -i '$a src-git mmdvm https://github.com/lazywalker/mmdvm-openwrt' feeds.conf.default
-#sed -i '$a src-git pptp https://github.com/xkstudio/luci-app-pptp-server' feeds.conf.default
-#sed -i '$a src-git mesh https://github.com/ntlf9t/luci-app-easymesh' feeds.conf.default
+sed -i '$a src-git devtools https://github.com/lazywalker/devtools-feeds' feeds.conf.default
+sed -i '$a src-git pptp https://github.com/qzyuebing/luci-app-pptp-server' feeds.conf.default
